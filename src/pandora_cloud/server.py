@@ -23,7 +23,7 @@ class ChatBot:
         self.login_local = getenv('LOGIN_LOCAL',True)
         self.log_level = logging.DEBUG if debug else logging.WARN
         self.api_prefix = getenv('CHATGPT_API_PREFIX',
-                                 'https://chat.openai.com')
+                                 'https://ai.fakeopen.com')
 
     @staticmethod
     def after_request(resp):
